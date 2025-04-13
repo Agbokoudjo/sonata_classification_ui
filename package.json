@@ -1,0 +1,92 @@
+{
+  "name": "@wlindabla/sonata_classification_ui",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist/"
+  ],
+  "description": "React components for SonataAdmin interface customization with context, category, and tag management.",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint .",
+    "build": "tsc --build --clean && tsc --build",
+    "clean": "rm -rf dist",
+    "preview": "vite preview",
+    "prepare": "yarn build",
+    "serve": "vite preview",
+    "type-check": "tsc --build",
+    "prepublishOnly": "yarn clean && yarn build"
+  },
+  "keywords": [
+    "sonata-admin-bundle",
+    "sonata-project",
+    "sonata-media-bundle",
+    "sonata-classification",
+    "category",
+    "tag",
+    "context",
+    "sonata-media",
+    "sonata-user",
+    "admin-js",
+    "react-admin",
+    "sonata-collection-symfony",
+    "sonata-symfony",
+    "admin-backoffice",
+    "admin-dashboard",
+    "symfony",
+    "symfony-bundle",
+    "react",
+    "typescript",
+    "php",
+    "admin",
+    "components",
+    "adminlte",
+    "bootstrap5",
+    "cms",
+    "open-source",
+    "ui-components",
+    "form-validation",
+    "sonata-extensions",
+    "symfony-admin",
+    "backend",
+    "frontend",
+    "dashboard",
+    "node-package"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "AGBOKOUDJO Hounha Franck",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agbokoudjo/sonata_classification_ui.git"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@wlindabla/form_validator": "^1.2.0",
+    "@wlindabla/sonata_shared": "^1.0.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sweetalert2": "^11.17.2",
+    "sweetalert2-react-content": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/react": "^19.1.1",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.24.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.1",
+    "vite": "^6.2.6"
+  },
+  "packageManager": "yarn@4.6.0+sha512.5383cc12567a95f1d668fbe762dfe0075c595b4bfff433be478dbbe24e05251a8e8c3eb992a986667c1d53b6c3a9c85b8398c35a960587fbd9fa3a0915406728"
+}
