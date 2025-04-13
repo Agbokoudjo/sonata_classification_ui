@@ -1,6 +1,6 @@
 {
   "name": "@wlindabla/sonata_classification_ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -69,7 +69,7 @@
     "@mui/icons-material": "^7.0.2",
     "@mui/material": "^7.0.2",
     "@wlindabla/form_validator": "^1.2.0",
-    "@wlindabla/sonata_shared": "^1.0.6",
+    "@wlindabla/sonata_shared": "^1.0.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "sweetalert2": "^11.17.2",
